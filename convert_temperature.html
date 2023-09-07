@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="?????" />
+    <meta name="description" content="?????" />
+    <meta name="author" content="?????" />
+    <title>Temperature Conversion</title>
+    <link rel="shortcut icon" href="./images/temp.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/style_ convert_temperature.css" />
+</head>
+<body style="text-align: center;">
+    <br><br><br>
+    <h1>Temperature Conversion</h1>
+    <h2>Cel to Fah | Fah to Cel</h1>
+    <img src="./images/temp.png" alt="" />
+    <br />
+    <br />
+    <hr />
+    <br>
+    <div id="temperature-converter">
+        <input type="number" id="tempin" placeholder="ป้อนอุณหภูมิ"> <span id="tempinunit"> เซลเซียส</span>
+        <br><br>
+        <div id="conversion-options">
+            <label>
+                <input type="radio" name="conversion" value="" checked> แปลง Celsius to Fahlenheit | F = C × 9 / 5 + 32
+            </label>
+            <br><br>
+            <label>
+                <input type="radio" name="conversion" value=""> แปลง Fahlenheit to Celsius | C = (F - 32) × 5 / 9
+            </label>
+        </div>
+        <br>
+        <button id="btn-conv">แปลงอุณหภูมิ</button>
+        <button id="btn-cancel">ยกเลิก</button>
+        <br><br>
+        <hr>
+        <p>
+            <span id="t1">มีค่าเป็น</span>&nbsp;&nbsp;&nbsp;<strong><span id="result">0.00</strong></strong
+            >&nbsp;&nbsp;&nbsp;<span id="unit_result">ฟาเรนไฮท์</span>
+          </p>
+    </div>
+    <script src="./js/script_ convert_temperature.js"></script>
+</body>
+</html>
