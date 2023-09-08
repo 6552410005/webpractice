@@ -1,9 +1,11 @@
-p{
-    font-size: 18px;
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #result{
     font-size: 35px;
+    color: red;
 }
 
 input{
